@@ -62,5 +62,17 @@ The following toolchains currently **need to be installed by running a simple sc
 - aarch64-5.1
 - aarch64-6.0
 
-*Script coming soon*
+### Script to Install toolchains
+##### Download script
+```bash
+curl -O https://raw.githubusercontent.com/SMAICP/How-to-Compile/master/SMToolchainDLandInstall.sh
+```
+##### Make script executable
+```bash
+chmod +x SMToolchainDLandInstall.sh
+```
+##### Run Script
+```bash
+./SMToolchainDLandInstall.sh
+```
 ***
