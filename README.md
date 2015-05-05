@@ -76,3 +76,7 @@ chmod +x SMToolchainDLandInstall.sh
 ./SMToolchainDLandInstall.sh
 ```
 ***
+##Porting
+Currently, the only device compatible with AICP with SaberMod is the HTC Nexus 9 (flounder). Support for the OnePlus One (bacon), is a WIP
+***
+*Porting Guide Coming Soon*
