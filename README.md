@@ -28,6 +28,6 @@ Grab the latest aicp_manifest and add it to your local manifest
 Re-Sync repo to get changes from local manifest
 
     $ repo sync
-
+***
 ### Add toolchains required to build from [sabermod.net] (http://sabermod.net)
 Detailed guide coming soon.
