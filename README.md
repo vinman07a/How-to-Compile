@@ -1,8 +1,8 @@
 # How-to-Compile
 ## Sync AICP (Android Ice Cold Project)
 Follow [AOSP Building instructions] (http://source.android.com/source/index.html) to initialize a build environment. (Don’t sync AOSP!)
-Initializing Repository
------------------------
+### Initializing Repository
+
 
 Initialize Repo:
 
@@ -16,7 +16,7 @@ Sync Repo :
     $ repo sync
 
 ***
-## Sync SaberMod components from GitHub
+### Sync SaberMod components from GitHub
 This is preferably done with the use of a localmanifest
 
 Grab the latest aicp_manifest and add it to your local manifest
@@ -29,5 +29,5 @@ Re-Sync repo to get changes from local manifest
 
     $ repo sync
 
-## Add toolchains required to build from [sabermod.net] (http://sabermod.net)
+### Add toolchains required to build from [sabermod.net] (http://sabermod.net)
 Detailed guide coming soon.
