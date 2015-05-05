@@ -76,6 +76,29 @@ chmod +x SMToolchainDLandInstall.sh
 ./SMToolchainDLandInstall.sh
 ```
 ***
+##Building
+```bash
+cd ~/android/saber/aicp
+```
+
+Set SABERMOD build variant (to distinguish builds)
+
+```bash
+export AICP_BUILD=SABERMOD
+```
+
+Build!
+
+```bash
+. build/envsetup.sh
+time brunch YOURDEVICE
+```
+Ex:
+```bash
+time brunch flounder
+```
+
+***
 ##Porting
 Currently, the only device compatible with AICP with SaberMod is the HTC Nexus 9 (flounder). Support for the OnePlus One (bacon), is a WIP
 ***
