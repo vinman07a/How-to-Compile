@@ -9,7 +9,7 @@ do
 	echo -e "Done downloading $chain"
 done
 echo -e "Extracting... This may take a while"
-tar xvjf *.tar.bz2
+cat *.tar.bz2 | tar -xvjf - -i
 for DLedArmTC in arm-eabi-4.8 arm-eabi-4.9 arm-eabi-5.1 arm-eabi-6.0 arm-linux-androideabi-4.9
 do
 	echo -e "Installing $DLedArmTC"
