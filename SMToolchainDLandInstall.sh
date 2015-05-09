@@ -2,7 +2,7 @@
 read -p "Enter the full directory path you have AICP with SaberMod installed: " dir
 mkdir ~/tempdlforsaber
 cd ~/tempdlforsaber
-for chain in http://sabermod.net/arm/arm-eabi/arm-eabi-4.8-04292015.tar.bz2 http://sabermod.net/arm/arm-eabi/arm-eabi-4.9-04292015.tar.bz2 http://sabermod.net/arm/arm-eabi/arm-eabi-5.1-04292015.tar.bz2 http://sabermod.net/arm/arm-eabi/arm-eabi-6.0-04292015.tar.bz2 http://sabermod.net/arm/arm-linux-androideabi/arm-linux-androideabi-4.9-05032015.tar.bz2 http://sabermod.net/arm64/aarch64/aarch64-4.9-04292015.tar.bz2 http://sabermod.net/arm64/aarch64/aarch64-5.1-04292015.tar.bz2 http://sabermod.net/arm64/aarch64/aarch64-6.0-04292015.tar.bz2 
+for chain in http://sabermod.net/arm/arm-eabi/arm-eabi-4.8-04292015.tar.bz2 http://sabermod.net/arm/arm-eabi/arm-eabi-4.9-04292015.tar.bz2 http://sabermod.net/arm/arm-eabi/arm-eabi-5.1-04292015.tar.bz2 http://sabermod.net/arm/arm-eabi/arm-eabi-6.0-04292015.tar.bz2 http://sabermod.net/arm/arm-linux-androideabi/arm-linux-androideabi-4.9-05072015.tar.bz2 http://sabermod.net/arm64/aarch64/aarch64-4.9-04292015.tar.bz2 http://sabermod.net/arm64/aarch64/aarch64-5.1-04292015.tar.bz2 http://sabermod.net/arm64/aarch64/aarch64-6.0-04292015.tar.bz2 
 do
 	echo -e "Downloading $chain"
 	curl -O $chain
