@@ -42,6 +42,9 @@ This portion of the guide is a **Work in Progress**.
 
 The following **SaberMod** toolchain is already downloaded and installed via localmanifest:
 - aarch64-linux-android-4.9
+- arm-linux-androideabi-4.9
+- aarch64-4.9
+- aarch64-5.1
 
 More will hopefully be installed for you via local manifest in the future.
 ***
@@ -57,9 +60,6 @@ The following toolchains currently **need to be installed by running a simple sc
 - arm-eabi-4.9
 - arm-eabi-5.1
 - arm-eabi-6.0
-- arm-linux-androideabi-4.9
-- aarch64-4.9
-- aarch64-5.1
 - aarch64-6.0
 
 ### Script to Install toolchains
